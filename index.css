@@ -59,6 +59,13 @@ nav h1{
     color: antiquewhite;
     height: max-content;
 }
+.headertext{
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+    height: max-content;
+}
 
 .centertext h1{
     font-size: 50;
@@ -104,14 +111,15 @@ img
 {
     display: grid;
     width: 70%;
-    height: 200px; 
+    height: auto; 
     background-color: antiquewhite;
     grid-template-columns: 200px, 200px, 200px;
     grid-template-rows: 200px, 200px, 200px;
     border: none;
-    border-radius: 50px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .sec-heading{
@@ -120,4 +128,54 @@ img
 
 .sec-p{
     max-width: 30%; padding-top: 20px;
+}
+
+.travel-destinations {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.destination-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.activity-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.activity-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.activity-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
 }
